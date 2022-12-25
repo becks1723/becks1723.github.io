@@ -26,23 +26,4 @@ display: grid;
   grid-gap: 100px;
 `
 
-const FooterLink = styled.div`
-  color: #fff;
-  margin: 10px;
-  font-size: 12px;
-  text-decoration: none;
-   
-  &:hover {
-      color: #000000;
-      transition: 200ms ease-in;
-  }
-`
-
-const Heading = styled.p`
-  font-size: 20px;
-  color: #fff;
-  margin: 10px 0px 10px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-`
 export default Footer;
