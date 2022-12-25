@@ -6,19 +6,7 @@ function Footer() {
   return (
     <Box>
       <FooterContainer>
-          <Column>
-            <Heading>Services for you</Heading>
-            <FooterLink href="#">Contact Us</FooterLink>
-            <FooterLink href="#">FAQs</FooterLink>
-            <FooterLink href="#">Private Policy</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Social Media</Heading>
-            <FooterLink href="#">Facebook</FooterLink>
-            <FooterLink href="#">Instagram</FooterLink>
-            <FooterLink href="#">Twitter</FooterLink>
-            <FooterLink href="#">Youtube</FooterLink>
-          </Column>
+          
       </FooterContainer>
     </Box>
   );
@@ -26,19 +14,10 @@ function Footer() {
 
 const Box = styled.div`
   padding: 20px 10px;
-  background: #329748;
+  background: #fbb4c4;
   position: absolute;
   width: 100%;
   justify-content: center;
-`
-
-const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
 `
 
 const FooterContainer = styled.div`

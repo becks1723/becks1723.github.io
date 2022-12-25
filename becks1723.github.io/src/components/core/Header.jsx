@@ -1,40 +1,19 @@
+import logo from '../atom/Logo-color.png';
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
-import { Download } from 'react-feather'
-import SearchBox from '../atom/SearchBox'
 
 function Header() {
-  const fppSearchBox = useRef()
-    const [fppQuery, fppSetQuery] = useState('')
   return (
     <HeaderContainer className='HeaderContainer'>
       <LogoContainer className='LogoContainer'>
-        <LogoText>Fifth Encore</LogoText>
+        <img src={logo} alt="Becky's Logo"></img>
       </LogoContainer>
-
       <LinkContainer className='LinkContainer'>
         <Link>Updates</Link>
         <Link>Docs</Link>
         <Link>FAQ</Link>
         <Link>Team</Link>
       </LinkContainer>
-
-      <ActionContainer className='ActionContainer'>
-        <SearchBox 
-          textRef={fppSearchBox} 
-          query={fppQuery}
-          setQuery={fppSetQuery}
-          placeholder='Search Docs'
-        />
-        <DownloadButton>
-          <Download 
-            size={18}
-            strokeWidth={1}
-            style={{marginRight: '5px'}}
-          />
-          Download
-        </DownloadButton>
-      </ActionContainer>
     </HeaderContainer>
   )
 }
@@ -49,7 +28,6 @@ const HeaderContainer = styled.div`
 const LinkContainer = styled.div`
   width: 50%;
   height: 100%;
-
   display: flex;
 `
 
@@ -83,32 +61,6 @@ const LogoText = styled.button`
   font-size: 17px;
   font-weight: 550;
   color: #fff;
-`
-
-const ActionContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-
-`
-
-const DownloadButton = styled.button`
-  all: unset;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100%;
-  background-color: #ce3232;
-  font-size: 13px;
-  padding: 0 10px;
-  color: #000;
-
-  transition: 200ms;
-  :hover {
-    background-color: #b82b2b;
-    cursor: not-allowed;
-  }
 `
 
 export default Header;
