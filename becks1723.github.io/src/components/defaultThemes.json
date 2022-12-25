@@ -1,0 +1,82 @@
+{
+    "themes": [
+        {
+            "themeID": "default_themes.dark",
+            "name": "Default - Dark",
+
+            "alerts": {
+                "success": {
+                    "color": "#ffafb5",
+                    "background": "#5f3235",
+                    "border": "#764548"
+                },
+                "warning": {
+                    "color": "#ffafb5",
+                    "background": "#5f3235",
+                    "border": "#764548"
+                },
+                "error": {
+                    "color": "#ffafb5",
+                    "background": "#5f3235",
+                    "border": "#764548"
+                }
+            },
+
+            "foreground": "#fff",
+            "secondaryForeground": "#d4d4d4",
+
+            "accent": "#f64e4e",
+            "secondaryAccent": "#b50000",
+
+            "backgroundBar": "#232323",
+            "background": "#323232",
+            "secondaryBackground": "#505050",
+            "thirdBackground": "#3c3c3c",
+            "inputBackground": "#444444",
+
+            "muted": "#a0a0a0",
+            "disabledText": "#545454",
+
+            "error": "#ff3333"
+        },
+        {
+            "themeID": "default_themes.light",
+            "name": "Default - Light",
+
+            "alerts": {
+                "success": {
+                    "color": "#842029",
+                    "background": "#f8d7da",
+                    "border": "#f5c2c7"
+                },
+                "warning": {
+                    "color": "#842029",
+                    "background": "#f8d7da",
+                    "border": "#f5c2c7"
+                },
+                "error": {
+                    "color": "#842029",
+                    "background": "#f8d7da",
+                    "border": "#f5c2c7"
+                }
+            },
+
+            "foreground": "#3f3f3f",
+            "secondaryForeground": "#707070",
+
+            "accent": "#ffa4a4",
+            "secondaryAccent": "#ff3b3b",
+
+            "backgroundBar": "#fafafa",
+            "background": "#dedede",
+            "secondaryBackground": "#e6e6e6",
+            "thirdBackground": "#d2d2d2",
+            "inputBackground": "#bebebe",
+
+            "muted": "#545454",
+            "disabledText": "#a1a1a1",
+
+            "error": "#ff3333"
+        }
+    ]
+}
