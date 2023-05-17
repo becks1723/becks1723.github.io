@@ -24,6 +24,7 @@ const HomeContainer = styled.div`
   position: relative;
   overflow: hidden;
   display: block;
+  height: 90vh;
 `
 
 const Background = styled.img`
@@ -53,9 +54,8 @@ const Banner = styled.div`
   animation-name: ${bannerEaseIn};
   animation-duration: 3s;
   padding: 30px 0 30px 0;
+  font-family: 'Work Sans', sans-serif;
 `
-
-
 
 const Header = styled.h1`
   font-size: 50px;

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import LogoPic from "../assets/Logo.png";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaInstagram} from "react-icons/fa";
+import { ButtonGroup,  IconButton } from '@chakra-ui/react'
 
 function Footer() {
   return (
@@ -13,12 +13,17 @@ function Footer() {
           <FooterText>Feel free to drop a 'hello' at beckychen.323@gmail.com</FooterText>
         </FooterLeft>
         <FooterRight>
-          <StyledLinkContainer>
-            <StyledIcon to="https://www.facebook.com/becks1723"> <FaFacebookSquare /> </StyledIcon> 
-            <StyledIcon to="https://www.instagram.com/becks1723/"> <FaInstagram /> </StyledIcon> 
-            <StyledIcon to="https://github.com/becks1723"> <FaGithubSquare /> </StyledIcon> 
-            <StyledIcon to="https://www.linkedin.com/in/becky-chen2332/"> <FaLinkedin /> </StyledIcon>
-          </StyledLinkContainer>
+          <ButtonGroup variant="ghost">
+            <IconButton
+              as="a"
+              href="https://www.facebook.com/becks1723"
+              aria-label="Facebook"
+              icon={<FaFacebookSquare fontSize="1.25rem" />}
+            />
+            <IconButton as="a" href="https://www.instagram.com/becks1723/" aria-label="Instagram" icon={<FaInstagram fontSize="1.25rem" />} />
+            <IconButton as="a" href="https://github.com/becks1723" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
+            <IconButton as="a" href="https://www.linkedin.com/in/becky-chen2332/" aria-label="LinkedIn" icon={<FaLinkedin fontSize="1.25rem" />} />
+          </ButtonGroup>
         </FooterRight>
       </FooterInnerContainer>
     </FooterContainer>
@@ -53,6 +58,7 @@ const FooterLeft = styled.div`
 const FooterRight = styled.div`
   flex: 50%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   padding-right: 3vw;
@@ -68,18 +74,5 @@ const FooterText = styled.p`
   margin: auto;
   opacity: 0.7;
 `
-
-const StyledLinkContainer = styled.div`
-  position: absolute;
-  margin: auto;
-`;
-
-
-const StyledIcon = styled(Link)`
-  text-decoration: none;
-  margin: 20px;
-  color: black;
-  opacity: 0.7;
-`;
 
 export default Footer;
