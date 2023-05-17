@@ -7,6 +7,7 @@
 - React
 - ChakraUI
 - Styled Components
+- React PDF
 
 ## Description
 
