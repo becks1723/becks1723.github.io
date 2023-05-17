@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import LogoPic from "../assets/Logo-border.png";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaInstagram} from "react-icons/fa";
-import { ButtonGroup,  IconButton } from '@chakra-ui/react'
 
 
 function Header() {
@@ -22,17 +21,10 @@ function Header() {
           </HeaderNavigationContainer>
         </HeaderCenter>
         <HeaderRight>
-        <ButtonGroup variant="ghost">
-            <IconButton
-              as="a"
-              href="https://www.facebook.com/becks1723"
-              aria-label="Facebook"
-              icon={<FaFacebookSquare fontSize="1.25rem" />}
-            />
-            <IconButton as="a" href="https://www.instagram.com/becks1723/" aria-label="Instagram" icon={<FaInstagram fontSize="1.25rem" />} />
-            <IconButton as="a" href="https://github.com/becks1723" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
-            <IconButton as="a" href="https://www.linkedin.com/in/becky-chen2332/" aria-label="LinkedIn" icon={<FaLinkedin fontSize="1.25rem" />} />
-          </ButtonGroup>
+          <StyledIcon to="https://www.facebook.com/becks1723"> <FaFacebookSquare /> </StyledIcon>
+          <StyledIcon to="https://www.instagram.com/becks1723/"> <FaInstagram /> </StyledIcon>
+          <StyledIcon to="https://github.com/becks1723"> <FaGithubSquare /> </StyledIcon>
+          <StyledIcon to="https://www.linkedin.com/in/becky-chen2332/"> <FaLinkedin /> </StyledIcon>
         </HeaderRight>
       </HeaderInnerContainer>
     </HeaderContainer>
@@ -85,10 +77,11 @@ const StyledLink = styled(Link)`
   font-size: large;
   margin: 20px;
   font-family: 'Work Sans', sans-serif;
-  &:hover{
-    color: white;
-    border-bottom: white solid 3px;
-  }
+`;
+
+const StyledIcon = styled(Link)`
+  margin: 20px;
+  color: black;
 `;
 
 const Logo = styled.img`
