@@ -67,7 +67,6 @@ const Subheader = styled.h2`
   font-size: 15px;
   width: 60%;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
 `
 
