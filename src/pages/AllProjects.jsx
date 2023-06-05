@@ -1,8 +1,8 @@
 import { Card, CardBody, CardFooter } from '@chakra-ui/react';
 import { Image, HStack, Stack, Heading, Text, Divider, IconButton, SimpleGrid} from '@chakra-ui/react';
 import styled from 'styled-components';
-import posterboy from '../assets/posterboy.jpg';
-import habittrack from '../assets/habittrack.jpg';
+import poster_boy from '../assets/posterboy.jpg';
+import habit_track from '../assets/habittrack.jpg';
 import cosmic_comets from '../assets/cosmic_comets.jpg';
 import time_design from '../assets/time_design.jpg';
 import lighthouse from '../assets/lighthouse.png';
@@ -21,7 +21,7 @@ function AllProjects() {
               margin='auto'
               height='40%'
               objectFit='cover'
-              src={posterboy}
+              src={poster_boy}
               alt='Sticky Net photo'
               borderRadius='lg'
             />
@@ -47,7 +47,7 @@ function AllProjects() {
               margin='auto'
               height='40%'
               objectFit='cover'
-              src={habittrack}
+              src={habit_track}
               alt='Habit Tracker photo'
               borderRadius='lg'
             />
