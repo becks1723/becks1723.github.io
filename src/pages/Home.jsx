@@ -15,7 +15,7 @@ function Home() {
         I'm Becky Chen, a Computer Science/Information Technology & Web Science dual major at RPI. 
         </Subheader>
         <Subheader> Feel free to take a look around! </Subheader>
-        <Subheader> Last updated: June 2023 </Subheader>
+        <Subheader> Updated: June 2023 </Subheader>
       </Banner>
     </HomeContainer>
   );
@@ -25,6 +25,7 @@ const HomeContainer = styled.div`
   position: relative;
   overflow: hidden;
   display: block;
+  height: 90vh;
 `
 
 const Background = styled.img`
@@ -54,19 +55,20 @@ const Banner = styled.div`
   animation-name: ${bannerEaseIn};
   animation-duration: 3s;
   padding: 30px 0 30px 0;
+  font-family: 'Work Sans', sans-serif;
 `
 
-
-
 const Header = styled.h1`
-  font-size: 50px;
+  font-size: 40px;
   margin: auto;
 `
 
 const Subheader = styled.h2`
-  font-weight: 500;
+  font-size: 20px;
   width: 60%;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 `
 
 export default Home
