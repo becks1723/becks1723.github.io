@@ -15,6 +15,7 @@ function Home() {
         I'm Becky Chen, a Computer Science/Information Technology & Web Science dual major at RPI. 
         </Subheader>
         <Subheader> Feel free to take a look around! </Subheader>
+        <Subheader> Last updated: June 2023 </Subheader>
       </Banner>
     </HomeContainer>
   );
