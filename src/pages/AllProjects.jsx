@@ -1,6 +1,8 @@
 import { Card, CardBody, CardFooter } from '@chakra-ui/react';
 import { Image, HStack, Stack, Heading, Text, Divider, IconButton, SimpleGrid} from '@chakra-ui/react';
 import styled from 'styled-components';
+import posterboy from '../assets/posterboy.jpg';
+import habittrack from '../assets/habittrack.jpg';
 import cosmic_comets from '../assets/cosmic_comets.jpg';
 import time_design from '../assets/time_design.jpg';
 import lighthouse from '../assets/lighthouse.png';
@@ -12,6 +14,58 @@ function AllProjects() {
   return(
     <Container>
       <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(23%, 1fr))'>
+
+      <Card maxW='sm'>
+          <CardBody>
+            <Image
+              margin='auto'
+              height='40%'
+              objectFit='cover'
+              src={posterboy}
+              alt='Sticky Net photo'
+              borderRadius='lg'
+            />
+            <Stack mt='6' spacing='3'>
+              <Heading size='md'>StickyNet</Heading>
+              <Text>
+                A social media website for users to put their ideas on a community board and remove their peers' sticky notes
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter>
+            <HStack>
+              <Text>Check it out here:</Text>
+              <IconButton as="a" href="https://github.com/PiersonG33/PosterBoy" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
+            </HStack>
+          </CardFooter>
+        </Card>
+
+        <Card maxW='sm'>
+          <CardBody>
+            <Image
+              margin='auto'
+              height='40%'
+              objectFit='cover'
+              src={habittrack}
+              alt='Habit Tracker photo'
+              borderRadius='lg'
+            />
+            <Stack mt='6' spacing='3'>
+              <Heading size='md'>Habit Tracker</Heading>
+              <Text>
+              A web application designed to provide management assistance to users and their activities.
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter>
+            <HStack>
+              <Text>NOT AVAILABLE</Text>
+              <IconButton as="a" href="/" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
+            </HStack>
+          </CardFooter>
+        </Card>
 
         <Card maxW='sm'>
           <CardBody>
