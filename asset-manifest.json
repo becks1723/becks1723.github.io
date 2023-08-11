@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cd59608.css",
+    "main.js": "/static/js/main.d828d5dc.js",
+    "static/js/787.49916233.chunk.js": "/static/js/787.49916233.chunk.js",
+    "static/media/contact_img.jpeg": "/static/media/contact_img.a1eed17816387e19b323.jpeg",
+    "static/media/posterboy.jpg": "/static/media/posterboy.bb4fe0cd7c40a57e2e61.jpg",
+    "static/media/lighthouse.png": "/static/media/lighthouse.cb3589c3a912fe4fbfc9.png",
+    "static/media/cosmic_comets.jpg": "/static/media/cosmic_comets.8e9b7223e99313fc6cf3.jpg",
+    "static/media/data_dash.jpg": "/static/media/data_dash.e1e83e1c2384a8f29310.jpg",
+    "static/media/time_design.jpg": "/static/media/time_design.bd01c1f324b8f8ef6f07.jpg",
+    "static/media/contact-background.jpg": "/static/media/contact-background.3e79a1626e597832fe78.jpg",
+    "static/media/habittrack.jpg": "/static/media/habittrack.689fb3292dbeb44ce1ce.jpg",
+    "static/media/musicposter.jpg": "/static/media/musicposter.1fae2c64710377e0ed18.jpg",
+    "static/media/August2023.pdf": "/static/media/August2023.f393b8155be877027b1a.pdf",
+    "static/media/stationary.jpg": "/static/media/stationary.97cc3084f6f860ac424d.jpg",
+    "static/media/businesscard.jpg": "/static/media/businesscard.4fedaac058f02fdfeea3.jpg",
+    "static/media/Logo-border.png": "/static/media/Logo-border.d80617e327fcdcb72e9a.png",
+    "static/media/movie.png": "/static/media/movie.489f44d5540d3e671d7d.png",
+    "index.html": "/index.html",
+    "main.1cd59608.css.map": "/static/css/main.1cd59608.css.map",
+    "main.d828d5dc.js.map": "/static/js/main.d828d5dc.js.map",
+    "787.49916233.chunk.js.map": "/static/js/787.49916233.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cd59608.css",
+    "static/js/main.d828d5dc.js"
+  ]
+}
