@@ -26,7 +26,7 @@ function AllProjects() {
               borderRadius='lg'
             />
             <Stack mt='6' spacing='3'>
-              <Heading size='md'>StickyNet</Heading>
+              <Heading size='md'>PosterBoy</Heading>
               <Text>
                 A social media website for users to put their ideas on a community board and remove their peers' sticky notes
               </Text>
@@ -61,8 +61,8 @@ function AllProjects() {
           <Divider />
           <CardFooter>
             <HStack>
-              <Text>NOT AVAILABLE</Text>
-              <IconButton as="a" href="/" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
+              <Text>Check it out here:</Text>
+              <IconButton as="a" href="https://github.com/ThatBlueJay/HabitTracker" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />/>} />
             </HStack>
           </CardFooter>
         </Card>
