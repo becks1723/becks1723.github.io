@@ -5,6 +5,7 @@ import businessCard from '../assets/businesscard.jpg';
 import stationary from '../assets/stationary.jpg';
 import musicPoster from '../assets/musicposter.jpg';
 import movie from '../assets/movie.png';
+import tiramisu from '../assets/tiramisu.png';
 
 function AllDesign() {
   return(
@@ -12,6 +13,24 @@ function AllDesign() {
       <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(23%, 1fr))'>
 
       <Card>
+        <CardBody>
+              <Image
+                margin='auto'
+                objectFit='cover'
+                src={tiramisu}
+                alt='Tiramisu photo'
+                borderRadius='lg'
+              />
+              <Stack mt='6' spacing='3'>
+                <Heading size='md'>Tiramisu How-To</Heading>
+                <Text>
+                  Created an informational video on how to make tiramisu on Adobe After Effects and Adobe Illustrator.
+                </Text>
+              </Stack>
+            </CardBody>
+          </Card>
+
+        <Card>
           <CardBody>
             <Image
               margin='auto'

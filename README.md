@@ -12,5 +12,5 @@
 ## Description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This is version 1 of the website.
+This is version 2 of the website.
 ### Start Date: May 15, 2023

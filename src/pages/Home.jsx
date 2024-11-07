@@ -12,10 +12,11 @@ function Home() {
           Welcome!
         </Header>
         <Subheader>
-        I'm Becky Chen, a Computer Science/Information Technology & Web Science dual major at RPI. 
+        Hello, I'm Becky Chen! I graduated from RPI with a dual major in Computer Science/Information Technology & Web Science with a minor in Graphic Design Minor.
         </Subheader>
+        <Subheader> I am currently based in NYC. </Subheader>
         <Subheader> Feel free to take a look around! </Subheader>
-        <Subheader> Updated: August 2023 </Subheader>
+        <Subheader> Updated: December 2024 </Subheader>
       </Banner>
     </HomeContainer>
   );

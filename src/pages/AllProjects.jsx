@@ -7,6 +7,8 @@ import cosmic_comets from '../assets/cosmic_comets.jpg';
 import time_design from '../assets/time_design.jpg';
 import lighthouse from '../assets/lighthouse.png';
 import data_dash from '../assets/data_dash.jpg';
+import zamp from '../assets/zamp.png';
+import synergy from '../assets/synergy.png';
 import { FaGithubSquare } from "react-icons/fa";
 
 
@@ -14,6 +16,60 @@ function AllProjects() {
   return(
     <Container>
       <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(23%, 1fr))'>
+
+      <Card maxW='sm'>
+          <CardBody>
+            <Image
+              margin='auto'
+              height='40%'
+              objectFit='cover'
+              src={synergy}
+              alt='SynergyHub photo'
+              borderRadius='lg'
+            />
+            <Stack mt='6' spacing='3'>
+              <Heading size='md'>Deloitte Productivity Tool</Heading>
+              <Text>
+                (Created for Deloitte) SynergyHub, a productivity tool created for my ITWS Capstone course.
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter>
+            <HStack>
+              
+            <Text>Check it out here:</Text>
+            <IconButton aria-label="Github" href="https://github.com/CapstoneF24/SynergyHub" icon={<FaGithubSquare fontSize="1.25rem" />} />
+            </HStack>
+          </CardFooter>
+        </Card>
+
+      <Card maxW='sm'>
+          <CardBody>
+            <Image
+              margin='auto'
+              height='40%'
+              objectFit='cover'
+              src={zamp}
+              alt='ZAMP photo'
+              borderRadius='lg'
+            />
+            <Stack mt='6' spacing='3'>
+              <Heading size='md'>ZAMP/King Energy</Heading>
+              <Text>
+                (Created for King Energy, an energy supplier) A data visualizer for solar energy incentives
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+          <CardFooter>
+            <HStack>
+              
+            <Text>Private repo:</Text>
+            <IconButton aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
+            </HStack>
+          </CardFooter>
+        </Card>
 
       <Card maxW='sm'>
           <CardBody>
@@ -54,7 +110,7 @@ function AllProjects() {
             <Stack mt='6' spacing='3'>
               <Heading size='md'>Habit Tracker</Heading>
               <Text>
-              A web application designed to provide management assistance to users and their activities.
+              A web application designed to provide management assistance to users and their activities
               </Text>
             </Stack>
           </CardBody>
@@ -62,7 +118,7 @@ function AllProjects() {
           <CardFooter>
             <HStack>
               <Text>Check it out here:</Text>
-              <IconButton as="a" href="https://github.com/ThatBlueJay/HabitTracker" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />/>} />
+              <IconButton as="a" href="https://github.com/ThatBlueJay/HabitTracker" aria-label="Github" icon={<FaGithubSquare fontSize="1.25rem" />} />
             </HStack>
           </CardFooter>
         </Card>

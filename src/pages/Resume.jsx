@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import pdf from './August2023.pdf';
+import pdf from './BeckysResume.pdf';
 import SinglePagePDFViewer from "../components/pdf/all-pages"
 import { Link } from "react-router-dom";
 
@@ -9,9 +9,9 @@ function Resume() {
   return(
     <ResumeContainer>
       <Title>Resume</Title>
-      <Text>Last Updated: August 2023</Text>
+      <Text>Last Updated: December 2024</Text>
       <Download>
-        <Link to="/files/August2023.pdf" target="_blank" download>download</Link>
+        <Link to="/files/BeckysResume.pdf" target="_blank" download>download</Link>
       </Download>
       <SinglePagePDFViewer pdf={pdf} />
     </ResumeContainer>
